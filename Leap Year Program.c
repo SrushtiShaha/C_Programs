@@ -16,5 +16,5 @@ int main()
        printf("\nThe Year is Not Leap Year");
    }
    getch();
-   clrscr();
+   return 0;
 }
