@@ -81,6 +81,7 @@ int main()
         
       case '+':
       case '-':
+      case '*':
       case '%':
       case '/':
         printf("\n\t These are the arithmetic operators");
