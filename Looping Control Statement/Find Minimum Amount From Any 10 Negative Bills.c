@@ -14,7 +14,7 @@ int main()
         {
             Min_Bill = Amount;
         }
-        if(Amount <= Min_Bill)
+        else( Amount <= Min_Bill )
         {
             printf("\n Min Updated \n");
             Min_Bill = Amount;
