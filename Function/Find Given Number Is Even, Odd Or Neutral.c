@@ -7,10 +7,10 @@ void Even();
 
 int main()
 {
-      Even();
+        Even();
       
-      getch();
-      return 0;
+        getch();
+        return 0;
 }
 
 void Even()
