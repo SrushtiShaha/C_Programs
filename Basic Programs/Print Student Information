@@ -1,0 +1,15 @@
+
+// Print Information Using printf() - Formated Output Implementation.
+
+#include <stdio.h>
+#include <conio.h>
+
+int main()
+{
+        printf(" \n\n %d  %s  %d  %d  %d  %f", 255, " Amit ",  9, 81, 150,  50.00);
+        printf(" \n\n %d  %s  %d  %d  %d  %f", 002, "Sujata", 70, 80, 200,  66.67);
+        printf(" \n\n %d  %s  %d  %d  %d  %f", 150, " Ajay ", 82, 18, 170,  56.67);
+        
+        getch();
+        return 0;
+}
