@@ -3,9 +3,9 @@
 
 int main()
 {
-    int NO = 0,Cnt = 0;
+    int NO = 0, Cnt = 0;
     
-    printf("\n\t Enter A Number To Print Its Table = ");
+    printf("\n\t Enter A Number To Print Its Table => ");
     scanf("%d",&NO);
     
     for(Cnt = 1; Cnt <= 10; Cnt++)
