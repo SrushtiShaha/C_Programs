@@ -7,7 +7,7 @@ int main()
           char Copy_Name[20] = {'\0'};
           int i = 0;
   
-          puts("Enter Any String => ");
+          printf("Enter Any String => ");
           gets(Name);
           
           while( Name[i] != '\0' )
