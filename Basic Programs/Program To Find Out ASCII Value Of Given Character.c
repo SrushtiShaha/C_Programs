@@ -9,12 +9,9 @@ int main()
             
             printf("\n Enter A Character => ");
             scanf("%c",&Ch);
-            
-            if( Ch < 128 )
-            {
-                      printf("\n\n The ASCII Value Of Given Character %c Is => %d ",Ch,Ch);
-            }
-            
+         
+            printf("\n\n The ASCII Value Of Given Character %c Is => %d ",Ch,Ch);           
+          
             getch();
             return 0;
 }
