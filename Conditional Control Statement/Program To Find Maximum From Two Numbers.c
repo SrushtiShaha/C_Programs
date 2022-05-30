@@ -12,9 +12,13 @@ int main()
              {
                        printf("\n\n First Number %d Is Greater. ",N1);
              }
-             else
+             else if( N2 > N1 )
              {
                        printf("\n\n Second Number %d Is Greater. ",N2);
+             }
+             else
+             {
+                       printf("\n\n Both The Numbers %d And %d Are Equal. ",N1,N2);
              }
             
              getch();
