@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <conio.h>
+#include <stdlib.h>
 
 struct Emp
 {
@@ -11,34 +12,36 @@ struct Emp
 
 int main()
 {
-          struct Emp E1;
-          struct Emp E2;
-          
+          struct Emp Epy[2];        
           int i = 0;
           
           for( i = 0; i < 2; i++ )
           {
                     printf("\n Enter %d Id's Information Of Employee => ",i+1);
                     
+                    fflush(stdin);
+                    
                     printf("\n Enter Employee Name -> ");
-                    gets(E1.Name);
+                    gets(Epy[i].Name);
+                    
+                    fflush(stdin);
                     
                     printf("\n Enter Salary -> ");
-                    scanf("%f",&E1.Sly);
+                    scanf("%f",&Epy[i].Sly);
                     
                     printf("\n Enter Mobile Number -> ");
-                    scanf("%lld",&E1.MNum);
+                    scanf("%lld",&Epy[i].MNum);
           }
           
-          for( i = 0; i < 2; i++)
+          for( i = 0; i < 2; i++ )
           {
-                    printf("\n %d Id's Information => ",E1.Id);
+                    printf("\n %d Id's Information => ",Epy[i].Id);
                     
-                    printf("\n Name -> %s",E1.Name);
+                    printf("\n Name -> %s",Epy[i].Name);
                     
-                    printf("\n Salary -> %f",E1.Sly);
+                    printf("\n Salary -> %f",Epy[i].Sly);
                     
-                    printf("\n Number -> %lld",E1.MNum);
+                    printf("\n Number -> %lld",Epy[i].MNum);
           }
           
           getch();
