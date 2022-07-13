@@ -13,20 +13,20 @@ struct Reserve
         int Bill;
 };
 
-void Function1();
-void Function2();
+void AcceptInfo();
+void DisplayInfo();
 
 struct Reserve R[Reservation];
 
 int main()
 {
-        Function1();
+        AcceptInfo();
 
         getch();
         return 0;
 }
 
-void Function1()
+void AcceptInfo();
 {
         int i = 0, Cnt = 0, Dig = 0;
         long long int Temp = 0;
@@ -89,10 +89,10 @@ void Function1()
 
         system("cls");
 
-        Function2();
+        DisplayInfo();
 }
 
-void Function2()
+void DisplayInfo();
 {
         int j = 0;
 
