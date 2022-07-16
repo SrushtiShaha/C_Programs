@@ -1,6 +1,7 @@
 #include<stdio.h>
 #include<conio.h>
 #include<stdlib.h>
+
 #define Reservation 1
 
 struct Reserve
@@ -23,10 +24,14 @@ int main()
         AcceptInfo();
 
         getch();
+
+        DisplayInfo();
+
+        getch();
         return 0;
 }
 
-void AcceptInfo();
+void AcceptInfo()
 {
         int i = 0, Cnt = 0, Dig = 0;
         long long int Temp = 0;
@@ -88,17 +93,11 @@ void AcceptInfo();
         getch();
 
         system("cls");
-
-        DisplayInfo();
 }
 
-void DisplayInfo();
+void DisplayInfo()
 {
         int j = 0;
-
-        R[j].Price = 500;
-
-        R[j].Bill = ( R[j].Price * R[j].Cnt );
 
         /// Display Customers Details.
 
@@ -108,6 +107,10 @@ void DisplayInfo();
 
         for( j = 0; j < Reservation; j++ )
         {
+                R[j].Price = 500;
+
+                R[j].Bill = ( R[j].Price * R[j].Cnt );
+
                 printf("\n Customers Id %d Details => ",R[j].Id);
 
                 printf("\n\n Customer's Name Is => %s",R[j].Name);
