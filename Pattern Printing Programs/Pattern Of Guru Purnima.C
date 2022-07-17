@@ -11,7 +11,7 @@ int main()
     int N = 0, i = 0, j = 0;
 
     Up:
-        printf("\n Enter Any Odd Size To Print Wish HAPPY GURU PURNIMA => ");
+        printf("\n Enter Any Odd Size To Wish HAPPY GURU PURNIMA => ");
         scanf("%d",&N);
 
         if( N % 2 == 0 )
