@@ -29,7 +29,7 @@ int main()
             }
             else
             {
-                        printf("Number Is Not Prime.");
+                        printf("\n Number Is Not Prime.");
             }
             
             getch();
