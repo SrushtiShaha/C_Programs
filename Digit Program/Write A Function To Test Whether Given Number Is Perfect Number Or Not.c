@@ -35,6 +35,7 @@ int main()
     ///printf("\n %d \n",Perfect_Number( iNum ) );
     
     printf("\n %d \n",iAns);
+
     getch();
     return 0;
 }
