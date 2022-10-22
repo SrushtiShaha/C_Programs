@@ -1,4 +1,4 @@
-// Using printf() just Print The Value Of Initialised Array Element.
+/// Using printf() just Print The Value Of Initialised Array Element.
 
 #include <stdio.h>
 #include <conio.h>
