@@ -3,7 +3,7 @@
 #include <stdio.h>
 #include <conio.h>
 
-int Max(int, int);
+int Max( int, int );
 
 int main()
 {
@@ -17,9 +17,9 @@ int main()
       getch();
       return 0;
 }
-int Max(int N1, int N2)
+int Max( int N1, int N2 )
 {
-      if(N1 > N2)
+      if( N1 > N2 )
       {
             return N1;
       }
