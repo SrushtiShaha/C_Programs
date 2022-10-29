@@ -6,7 +6,7 @@ int main()
     int N = 0, i = 0, j = 0;
 
     Up:
-        printf("\n Enter Any Odd Size To Print All Alphabet => ");
+        printf("\n Enter Any Odd Size To Print All Alphabets => ");
         scanf("%d",&N);
 
         if( N % 2 == 0 )
