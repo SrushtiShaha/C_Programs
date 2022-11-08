@@ -32,6 +32,6 @@ void Mult()
         iNum = iNum * 10;
     
         printf("\n Changing Value Of iNum = %d.",iNum);
-    
+
         return;
 }
