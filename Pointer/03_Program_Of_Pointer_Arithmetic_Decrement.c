@@ -12,8 +12,7 @@ int main()
           printf("\n Value In Pointer => %d ",Ptr);                               ///907325516
           printf("\n Value In Array Element Where Pointer Pointing => %d ",*Ptr); /// 93
           
-          getch();
-          
+          getch();       
           
           Ptr--;         
             
