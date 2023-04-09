@@ -12,7 +12,6 @@ int main()
         while( cSrc[i] != '\0' )
         {
                 Len++;
-
                 i++;
         }
 
